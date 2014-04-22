@@ -1,0 +1,78 @@
+	
+	The Game Class handles the games window and main game loop. It is set up to 
+	do time based animation. By default the game will draw at 60 frames per 
+	second, the window height and width will be 90% of the desktop width and
+	height and the window will be positioned at center and top of the desktop.
+	
+	The main use of this class is for learning, not production quality code or
+	to show off how great I am at C++. The amount of code voodoo and trickery 
+	has been kept to a bare minimum. If you don't understand something completly, 
+	just take it as *PMF. It was either meant for you not to mess with or I forgot 
+	(read: to lazy) to comment what the code did.
+
+	-----------------------------------------------------------------------------------
+	Common conventions used in the creation of this class. You are free to do what ever
+	you want. Trust me. My mom said it was okay.
+	-----------------------------------------------------------------------------------
+	
+	---------------
+	public methods:
+	---------------
+	
+	Public methods are written in camel case with the first letter capitalized.
+	
+	int	MySuperCoolFunctin();
+	
+	----------------
+	-public members:
+	----------------
+	
+	<Sarcasm> Public members, fields or whatever you want to call them don't exist...
+	so why would you eveen try to use them.</Sarcasm> 
+
+	Any public members in the class will follow the rules for public methods
+
+	enumeration class MyEnumerations { the things enumerated here};
+
+	---------------------------
+	private methods and members
+	---------------------------
+
+	Private methods and members are written in camel case with the first letter
+	lower case. The methods are prefixed with an '_' and the members are
+	prefixed with 'm_'. Private methods and members are separated
+	by different private keywords. If their is one thing I would suggest
+	following yourself, it is at least placing members and methods into
+	these spots.
+
+	private://methods
+	void _mySuperPrivateFunction();
+	void _myOtherSuperPrivateFunction();
+	
+	private://members
+	int m_mySuperPrivateMember;
+	bool m_myOtherSuperPrivateMember;
+
+	------------
+	other notes:
+	------------
+
+	I don't have any using directives set up. I don't use them. If you do, set them up yo'self.
+	
+	I tend to slip into modern C++ style code. Most universities and teach yourself books don't use modern C++.
+	If C++ is your main programming language, I would definitly suggest learning modern C++ practices.
+
+	I tried to make the names of things so overly descriptive it hurts. 
+	
+	Methods are commented in the .cpp file. Furthermore, they should be commented to all hell.
+	
+	Don't form a lynch mob in search of me because of your religious beliefs in coding style. We are all wrong.
+	
+	Hopefully this helps you to get started making a game quick and easy. If not read the first few words of the
+	previous comment.
+	
+	Have fun.
+
+	With the love of a thousand crazy ex-significant others,
+	-Roy Skullestad
+	
