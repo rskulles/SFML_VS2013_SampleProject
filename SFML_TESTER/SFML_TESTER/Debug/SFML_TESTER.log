@@ -1,0 +1,14 @@
+﻿Build started 4/22/2014 5:39:59 PM.
+     1>Project "C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\SFML_TESTER\SFML_TESTER.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\SFML\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\Debug\SFML_TESTER.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\SFML\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\Debug\SFML_TESTER.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\Debug\SFML_TESTER.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\Main.obj
+         SFML_TESTER.vcxproj -> C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\Debug\SFML_TESTER.exe
+     1>Done Building Project "C:\Users\Roy\Documents\GitHub\SFML_VS2013_SampleProject\SFML_TESTER\SFML_TESTER\SFML_TESTER.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.69
