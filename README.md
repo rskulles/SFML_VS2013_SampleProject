@@ -15,7 +15,7 @@ Yes. The solution itself works on Visual Studio 2013 Express through Ultimate. O
 
 ###Cool, so this is all you need to make games?
 
-No, you will also need to download SFML. At the moment, SFML doesn't support Visual Studio 2013. You can [download a compatible version here](https://github.com/rskulles/SFML_VS2013_SampleProject/).
+No, you will also need to download SFML. At the moment, SFML doesn't support Visual Studio 2013. You can [download a compatible version here](https://github.com/rskulles/SFML_2.1_VS2013/).
 Also, you will need to have some environment variables set up in your operating system. If you have no idea what that means or you just want them set up auto-magically, [use the file here](https://github.com/rskulles/SFML_User_Variables_Script/). 
 
 If you don't use the other utilities I provided, you are on your own. If you do use the utilities, your are on your own.
